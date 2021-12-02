@@ -1,3 +1,4 @@
+"use strict";
 // try to write a the following loop with while and do-while:
 for (var i = 0; i < a.length; i++) {
   console.log("for", i, a[i]);

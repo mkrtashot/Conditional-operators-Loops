@@ -1,3 +1,4 @@
+"use strict";
 // Given a number. Print “odd” if the number is odd and “even” if itʼs even.
 // Input Output
 // 125 “odd”
