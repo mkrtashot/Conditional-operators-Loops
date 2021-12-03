@@ -23,9 +23,9 @@ function array(arr) {
   console.log(arrFinal);
 }
 
-arr1 = [8, 0, 1, "hey", 12, 5, true, "2", null, 7, 3];
-arr2 = [8, 8, "meh", 6];
-arr3 = [null, null, 1, undefined, 5, 9, false];
+let arr1 = [8, 0, 1, "hey", 12, 5, true, "2", null, 7, 3];
+let arr2 = [8, 8, "meh", 6];
+let arr3 = [null, null, 1, undefined, 5, 9, false];
 
 array(arr1);
 array(arr2);
