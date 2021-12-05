@@ -19,7 +19,7 @@ console.log("for", i, a[i]);
 }
 ```
 
-Here is the [solution](./tasks/for_vs_for-in.js)
+Here is the [solution](for_vs_for-in.js)
 
 ```
 . Given a number. Print “odd” if the number is odd and “even” if itʼs even.
@@ -42,7 +42,7 @@ Input Output
 8 8
 ```
 
-Here is the [solution](.tasks/odd_or_even.js)
+Here is the [solution](odd_or_even.js)
 
 . Check if a number is a multiple of 3, 5 or 7 and output the appropriate message.
 
@@ -55,7 +55,7 @@ Input Output
 24 “24 is a multiple of 3.”
 ```
 
-Here is the [solution](Tasks\multiple_3_5_7.js)
+Here is the [solution](multiple_3_5_7.js)
 
 . Given three numbers. Sort them by the ascending order.
 
@@ -65,7 +65,7 @@ Input Output
 -23, -456, 0 -456, -23, 0
 ```
 
-Here is the [solution](Tasks\ascending_order.js)
+Here is the [solution](ascending_order.js)
 
 . Find the sign of product of three numbers without multiplication operator. Display the specified sign.
 
@@ -76,7 +76,7 @@ Input Output
 4, 19, -2 “-”
 ```
 
-Here is the [solution](Tasks\sign_of_numbers.js)
+Here is the [solution](sign_of_numbers.js)
 
 . Insert a digit and a number. Check whether the digits contains in the number or not.
 
@@ -87,7 +87,7 @@ Input Output
 8, 45689 ‘Yesʼ
 ```
 
-Here is the [solution](Tasks\number_contains_digit.js)
+Here is the [solution](number_contains_digit.js)
 
 . Enter a number. Reverse its first and last digits. Print the new number.
 
@@ -98,7 +98,7 @@ Input Output
 895796 695798
 ```
 
-Here is the [solution](Tasks\reverse.js)
+Here is the [solution](reverse.js)
 
 . Insert a number. Print ‘yesʼ if the number is prime, ‘noʼ otherwise.
 
@@ -112,7 +112,7 @@ Input Output
 63 ‘noʼ
 ```
 
-Here is the [solution](Tasks\prime.js)
+Here is the [solution](prime.js)
 
 . Given a number n ( n >= 0 ). Print n Fibonacci number. (Fibonacci th series: 0, 1, 1, 2, 3, 5, 8 ..., ak =
 ak- 1 + ak- 2 )
@@ -126,7 +126,7 @@ ak- 1 + ak- 2 )
 | 20 | 6765 |
 ```
 
-Here is the [solution](Tasks\fibonacci.js)
+Here is the [solution](fibonacci.js)
 
 . Insert a number. Calculate product and sum of the digits of the number. If product is divisible by the
 sum, print the quotient, otherwise print the remainder.
@@ -136,7 +136,7 @@ Input Output
 0 ‘Cannot calculate.ʼ
 455 ‘Remainder is 2.ʼ
 
-Here is the [solution](Tasks\product_sum.js)
+Here is the [solution](product_sum.js)
 
 . Given a sentence with missing words and an array of words. Replace all ‘_ʼ in a sentence with the
 words from the array.
@@ -151,7 +151,7 @@ again.”
 “May the _ _ _ _.” [“Force”, “be”, “with”, “you”] “May the Force be with you.”
 ```
 
-Here is the [solution](Tasks\sentence.js)
+Here is the [solution](sentence.js)
 
 . Given mixed array of numbers, strings, booleans, nulls and undefined. Filter array and get all the
 numbers in a separate array. Arrange them such as from the beginning are the odds and from the
@@ -165,7 +165,7 @@ Input Output
 [null, null, 1, undefined, 5, 9, false] [1, 5, 9]
 ```
 
-Here is the [solution](Tasks\arr_odd_even.js)
+Here is the [solution](arr_odd_even.js)
 
 . Given an array of strings and numbers. Print the number of integers and the number of strings in the
 array.
@@ -173,7 +173,7 @@ Input Output
 [1, ‘10ʼ, ‘hiʼ, 2, 3] “Numbers: 3, Strings: 2”
 [1, 4, ‘i am a stringʼ, ‘456ʼ] “Numbers: 2, Strings: 2”
 
-Here is the [solution](Tasks\strings_numbers.js)
+Here is the [solution](strings_numbers.js)
 
 . Given an array of strings. Find the strings with maximum and minimum lengths in array. Print the sum
 of their lengths.
@@ -181,7 +181,7 @@ Input Output
 [“anymore”, “raven”, “me”, “communicate”] 13
 [“wish”, “slightly”, “understand”, “longer”, “unexpected”, “heart”] 14
 
-Here is the [solution](Tasks\max_min.js)
+Here is the [solution](max_min.js)
 
 . Given an array of numbers and a number. Find the index of a first element which is equal to that
 number. If there is not such a number, that find the index of the first element which is the closest to it.
@@ -190,7 +190,7 @@ Input Output
 [ 36, -12, 47, -58, 148, -55, -19, 10], -56 5
 [5, 46, 17, -2, 89, 0, 26 ] 36 1
 
-Here is the [solution](Tasks\arr_num_num.js)
+Here is the [solution](arr_num_num.js)
 
 . Given a sentence as a string. Split it according to space and comma and create an array consisting of
 the words of the array. The last word should not contain the last. or!.
@@ -204,7 +204,7 @@ enemies closer.”
 “enemies”, “closer”]
 ```
 
-Here is the [solution](Tasks\string_sentence.js)
+Here is the [solution](string_sentence.js)
 
 . Given an array of a size smaller than 100. It consists of numbers from 0 to 99 in any order. Create a
 new array where each element from that array is placed under the index of its value. Start from the
@@ -224,7 +224,7 @@ undefined x 3 ] |
 
 _undefined x 13 - means undefined 13 times._
 
-Here is the [solution](Tasks\array_number.js)
+Here is the [solution](array_number.js)
 
 ```
 
@@ -243,4 +243,11 @@ Input Output
 5 9 12 14 15
 ```
 
-Here is the [solution](Tasks\print_pattern.js)
+Here is the [solution](print_pattern.js)
+
+```
+Optional task from codesignal
+Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, the second - from the year 101 up to and including the year 200, etc.
+```
+
+Here is the [solution](codesignal_task.js)
